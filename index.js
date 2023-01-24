@@ -111,8 +111,8 @@ const make_a_move = (e) => {
 	if (inner_field.className=="inner_field selectable" && e.children[0].className=="fa-regular fa-circle placeholder") {
 		lock_all();
 		e.innerHTML = turn;
+		check_for_line(inner_field);
 		unlock(cell.column.nodeValue,cell.row.nodeValue);
-		check_for_line(inner_field)
 		if (turn==cross) {turn=circle} else {turn=cross}
 	}
 }

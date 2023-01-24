@@ -51,8 +51,8 @@ table {
 }
 
 table.inner_field td {
-	min-width: 25px;
-	min-height: 25px;
+	width: min(5vh,5vw);
+	height: min(5vh,5vw);
 }
 
 td {

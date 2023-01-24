@@ -46,8 +46,8 @@ table {
 }
 
 #field {
-	min-width: 75vh;
-	min-height: 75vh;
+	min-width: min(75vh,75vw);
+	min-height: min(75vh,75vw);
 }
 
 table.inner_field td {

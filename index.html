@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ben Orlin's tic tac toe</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="https://kit.fontawesome.com/a1b1690634.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div id="menu" style="text-align: center;">
+			<label class="big-text" for="field_size">Field size: </label>
+			<input class="big-text" id="field_size" type="number" min=2 value=3></input></br>
+			<button class="big-text" id="start">Start</button>
+		</div>
+
+		<div id="game" style="display: none;">
+			<table id="field">
+			</table>
+		</div>
+		
+		<script src="index.js"></script>
+	</body>
+</html>
